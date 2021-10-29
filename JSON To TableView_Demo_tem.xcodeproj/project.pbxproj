@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75ABEBA3DC7314B8FBCFFF54 /* Pods_JSON_To_TableView_Demo_tem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A2AC6B8CD362FEA53AE124 /* Pods_JSON_To_TableView_Demo_tem.framework */; };
+		99355FF7272A5BB200558322 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99355FF6272A5BB200558322 /* Request.swift */; };
+		99355FF9272A5BC900558322 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99355FF8272A5BC900558322 /* Response.swift */; };
+		99355FFF272A76E900558322 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99355FFE272A76E900558322 /* global.swift */; };
+		99356002272BAB0400558322 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99356000272BAB0400558322 /* DemoTableViewCell.swift */; };
+		99356003272BAB0400558322 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99356001272BAB0400558322 /* DemoTableViewCell.xib */; };
 		9959414A271EEEDE0011BB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99594149271EEEDE0011BB66 /* AppDelegate.swift */; };
 		9959414C271EEEDE0011BB66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959414B271EEEDE0011BB66 /* SceneDelegate.swift */; };
 		9959414E271EEEDE0011BB66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959414D271EEEDE0011BB66 /* ViewController.swift */; };
@@ -16,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39A2AC6B8CD362FEA53AE124 /* Pods_JSON_To_TableView_Demo_tem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON_To_TableView_Demo_tem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D67E0D29CD430C4338E6332 /* Pods-JSON To TableView_Demo_tem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON To TableView_Demo_tem.debug.xcconfig"; path = "Target Support Files/Pods-JSON To TableView_Demo_tem/Pods-JSON To TableView_Demo_tem.debug.xcconfig"; sourceTree = "<group>"; };
+		99355FF6272A5BB200558322 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		99355FF8272A5BC900558322 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		99355FFE272A76E900558322 /* global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		99356000272BAB0400558322 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		99356001272BAB0400558322 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
+		99356004272BAC6700558322 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		99594146271EEEDE0011BB66 /* JSON To TableView_Demo_tem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON To TableView_Demo_tem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99594149271EEEDE0011BB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9959414B271EEEDE0011BB66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,7 @@
 		99594152271EEEE00011BB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99594155271EEEE00011BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99594157271EEEE00011BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4937FB3B287504A88C20E4 /* Pods-JSON To TableView_Demo_tem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON To TableView_Demo_tem.release.xcconfig"; path = "Target Support Files/Pods-JSON To TableView_Demo_tem/Pods-JSON To TableView_Demo_tem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ABEBA3DC7314B8FBCFFF54 /* Pods_JSON_To_TableView_Demo_tem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D6E0E45BD85379ECF93CC00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D67E0D29CD430C4338E6332 /* Pods-JSON To TableView_Demo_tem.debug.xcconfig */,
+				AC4937FB3B287504A88C20E4 /* Pods-JSON To TableView_Demo_tem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BE22FF3799375B4227051F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A2AC6B8CD362FEA53AE124 /* Pods_JSON_To_TableView_Demo_tem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99355FF4272A5B9600558322 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				99355FF8272A5BC900558322 /* Response.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		99355FF5272A5B9F00558322 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				99355FF6272A5BB200558322 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		9959413D271EEEDE0011BB66 = {
 			isa = PBXGroup;
 			children = (
 				99594148271EEEDE0011BB66 /* JSON To TableView_Demo_tem */,
 				99594147271EEEDE0011BB66 /* Products */,
+				0D6E0E45BD85379ECF93CC00 /* Pods */,
+				7BE22FF3799375B4227051F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +107,8 @@
 		99594148271EEEDE0011BB66 /* JSON To TableView_Demo_tem */ = {
 			isa = PBXGroup;
 			children = (
+				99355FF5272A5B9F00558322 /* Request */,
+				99355FF4272A5B9600558322 /* Response */,
 				99594149271EEEDE0011BB66 /* AppDelegate.swift */,
 				9959414B271EEEDE0011BB66 /* SceneDelegate.swift */,
 				9959414D271EEEDE0011BB66 /* ViewController.swift */,
@@ -63,6 +116,10 @@
 				99594152271EEEE00011BB66 /* Assets.xcassets */,
 				99594154271EEEE00011BB66 /* LaunchScreen.storyboard */,
 				99594157271EEEE00011BB66 /* Info.plist */,
+				99355FFE272A76E900558322 /* global.swift */,
+				99356000272BAB0400558322 /* DemoTableViewCell.swift */,
+				99356001272BAB0400558322 /* DemoTableViewCell.xib */,
+				99356004272BAC6700558322 /* README.md */,
 			);
 			path = "JSON To TableView_Demo_tem";
 			sourceTree = "<group>";
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9959415A271EEEE00011BB66 /* Build configuration list for PBXNativeTarget "JSON To TableView_Demo_tem" */;
 			buildPhases = (
+				21E19EEBF6DAB56E0658691A /* [CP] Check Pods Manifest.lock */,
 				99594142271EEEDE0011BB66 /* Sources */,
 				99594143271EEEDE0011BB66 /* Frameworks */,
 				99594144271EEEDE0011BB66 /* Resources */,
+				AC8F36B694F35235E6A35C76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +186,67 @@
 			files = (
 				99594156271EEEE00011BB66 /* LaunchScreen.storyboard in Resources */,
 				99594153271EEEE00011BB66 /* Assets.xcassets in Resources */,
+				99356003272BAB0400558322 /* DemoTableViewCell.xib in Resources */,
 				99594151271EEEDE0011BB66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21E19EEBF6DAB56E0658691A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSON To TableView_Demo_tem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8F36B694F35235E6A35C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON To TableView_Demo_tem/Pods-JSON To TableView_Demo_tem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON To TableView_Demo_tem/Pods-JSON To TableView_Demo_tem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSON To TableView_Demo_tem/Pods-JSON To TableView_Demo_tem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99594142271EEEDE0011BB66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99355FFF272A76E900558322 /* global.swift in Sources */,
 				9959414E271EEEDE0011BB66 /* ViewController.swift in Sources */,
+				99356002272BAB0400558322 /* DemoTableViewCell.swift in Sources */,
 				9959414A271EEEDE0011BB66 /* AppDelegate.swift in Sources */,
 				9959414C271EEEDE0011BB66 /* SceneDelegate.swift in Sources */,
+				99355FF7272A5BB200558322 /* Request.swift in Sources */,
+				99355FF9272A5BC900558322 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +390,7 @@
 		};
 		9959415B271EEEE00011BB66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D67E0D29CD430C4338E6332 /* Pods-JSON To TableView_Demo_tem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +419,7 @@
 		};
 		9959415C271EEEE00011BB66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4937FB3B287504A88C20E4 /* Pods-JSON To TableView_Demo_tem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
